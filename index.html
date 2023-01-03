@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Rent webpage </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:900px)" href="mobaile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <!--navigation-->
+    <nav>
+        <div class="nav-img">
+            <img src=".\Real\Real\FrontPage\logo.png" alt="">
+        </div>
+
+        <div class="nav-manu">
+            <ul id="link">
+                <i class="fa-solid fa-xmark" id="xmark"></i>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Blog </a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <i class="fa-solid fa-bars" id="bar"></i>
+        </div>
+    </nav>
+    <!--Home manu-->
+    <section class="home">
+        <div class="home-text">
+            <h1>Search Your Next Home</h1>
+            <p>Find new & featured property located in your local city.</p>
+        </div>
+        <form class="home-from">
+            <div class="from-item">
+                <label for="location">City/Street</label>
+                <input type="text" id="location" placeholder="Location">
+            </div>
+            <div class="from-item">
+                <label for="Property">Property Type</label>
+                <input type="text" id="property" placeholder="Property Type">
+            </div>
+            <div class="from-item">
+                <label for="price">Price Range</label>
+                <input type="text" id="price" placeholder="Price Range">
+            </div>
+            <div class="from-item">
+                <h3>Advance Filter</h3>
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+        </form>
+    </section>
+    <!--Featured Property Types-->
+    <section class="featured-proparty">
+        <div class="propart-text">
+            <h1>Featured Property Types</h1>
+            <p class="featured-paragrap">Find All Type of Property.</p>
+        </div>
+        <div class="featured">
+            <div class="featured-box">
+                <img src="./Real/Real/second/hero/h1.png" alt="">
+                <h2>Family House</h2>
+                <p>122 Property</p>
+            </div>
+            <div class="featured-box">
+                <img src="./Real/Real/second/hero/h2.png" alt="">
+                <h2>House & Villa</h2>
+                <p>155 Property</p>
+            </div>
+            <div class="featured-box">
+                <img src="./Real/Real/second/hero/h3.png" alt="">
+                <h2>Apartment</h2>
+                <p>300 Property</p>
+            </div>
+            <div class="featured-box">
+                <img src="./Real/Real/second/hero/h4.png" alt="">
+                <h2>Office & Studio</h2>
+                <p>80 Property</p>
+            </div>
+            <div class="featured-box">
+                <img src="./Real/Real/second/hero/h6.png" alt="">
+                <h2>Villa & Condo</h2>
+                <p>80 Property</p>
+            </div>
+        </div>
+    </section>
+    <!--Recent Property Listed-->
+
+    <div class="recent-property">
+        <div class="property-text">
+            <h1>Recent Property Listed</h1>
+            <p>Show new added property.</p>
+        </div>
+        <div class="property-box">
+            <div class="propaty-item">
+                <div class="img">
+                    <img src="./Real/Real/third/list/p-1.png" alt="">
+                </div>
+                <div class="img-details">
+                    <h6 class="yellow">For Rent</h6>
+                    <h4>Red Carpet Real Estate</h4>
+                    <h5><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span class="location-name">210 Zirak
+                            Road,
+                            Canada</span></h5>
+                </div>
+                <div class="property-price">
+                    <div class="price">
+                        <h3>$7,520</h3>
+                        <span>/sqft</span>
+                    </div>
+                    <h4 class="location-type">Homes & Villas</h4>
+                </div>
+            </div>
+            <div class="propaty-item">
+                <div class="img">
+                    <img src="./Real/Real/third/list/p-2.png" alt="">
+                </div>
+                <div class="img-details">
+                    <h6 class="green">For Sale</h6>
+                    <h4>Fairmount Properties</h4>
+                    <h5><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span class="location-name"> 5698
+                            Zirak Road,
+                            NewYork</span></h5>
+                </div>
+                <div class="property-price">
+                    <div class="price">
+                        <h3>$9,650</h3>
+                        <span>/sqft</span>
+                    </div>
+                    <h4 class="location-type">Condos</h4>
+                </div>
+            </div>
+            <div class="propaty-item">
+                <div class="img">
+                    <img src="./Real/Real/third/list/p-4.png" alt="">
+                </div>
+                <div class="img-details">
+                    <h6 class="yellow">For Rent</h6>
+                    <h4>The Real Estate Corner</h4>
+                    <h5><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span class="location-name">5624
+                            Mooker
+                            Market, USA</span></h5>
+                </div>
+                <div class="property-price">
+                    <div class="price">
+                        <h3>$8,840</h3>
+                        <span>/sqft</span>
+                    </div>
+                    <h4 class="location-type">Offices</h4>
+                </div>
+            </div>
+            <div class="propaty-item">
+                <div class="img">
+                    <img src="./Real/Real/third/list/p-5.png" alt="">
+                </div>
+                <div class="img-details">
+                    <h6 class="green">For Sale</h6>
+                    <h4>Herringbone Realty</h4>
+                    <h5><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span class="location-name"> 5621
+                            Liverpool,
+                            London</span></h5>
+                </div>
+                <div class="property-price">
+                    <div class="price">
+                        <h3>$6,300</h3>
+                        <span>/sqft</span>
+                    </div>
+                    <h4 class="location-type">Homes & Villas</h4>
+                </div>
+            </div>
+            <div class="propaty-item">
+                <div class="img">
+                    <img src="./Real/Real/third/list/p-6.png" alt="">
+                </div>
+                <div class="img-details">
+                    <h6 class="yellow">For Rent</h6>
+                    <h4>Brick Lane Realty</h4>
+                    <h5><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span class="location-name"> 210
+                            Montreal
+                            Road, Canada</span></h5>
+                </div>
+                <div class="property-price">
+                    <div class="price">
+                        <h3>$9,100</h3>
+                        <span>/sqft</span>
+                    </div>
+                    <h4 class="location-type">Commercial</h4>
+                </div>
+            </div>
+            <div class="propaty-item">
+                <div class="img">
+                    <img src="./Real/Real/third/list/p-7.png" alt="">
+                </div>
+                <div class="img-details">
+                    <h6 class="green">For Sale</h6>
+                    <h4>Banyon Tree Realty</h4>
+                    <h5><i class="fa-solid fa-location-dot"></i><span class="location-name"> 210 Zirak Road,
+                            Canada</span></h5>
+                </div>
+                <div class="property-price">
+                    <div class="price">
+                        <h3>$3,200</h3>
+                        <span>/sqft</span>
+                    </div>
+                    <h4 class="location-type">Apartment</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Our Awards-->
+    <section class="award">
+        <div class="award-text">
+            <h4>Our Awards</h4>
+            <p>Over 1,24,000+ Happy User Bieng With Us Still They Love Our Services</p>
+        </div>
+        <div class="award-box">
+            <div class="award-number">
+                <i class="fa-solid fa-trophy"></i>
+                <h1>32 M</h1>
+                <p>Blue Burmin Award</p>
+            </div>
+            <div class="award-number">
+                <i class="fa-solid fa-lightbulb"></i>
+                <h1>53 M</h1>
+                <p>IITCA Green Award</p>
+            </div>
+            <div class="award-number">
+                <i class="fa-solid fa-heart"></i>
+                <h1>65 M</h1>
+                <p>Australian UGC Award</p>
+            </div>
+            <div class="award-number">
+                <i class="fa-solid fa-medal"></i>
+                <h1>47 M</h1>
+                <p>Mimo X11 Award</p>
+            </div>
+        </div>
+    </section>
+    <!--Explore By Location-->
+    <section class="location">
+        <div class="loction-text">
+            <h1>Explore By Location</h1>
+            <p>Show hear world best location ever</p>
+        </div>
+        <div class="loction-img">
+            <div class="img-details">
+                <img src="./Real/Real/location/city-1.png" alt="">
+                <div class="img-name">
+                    <h3>New Orleans, Louisiana</h3>
+                    <div class="paragrap">
+                        <p>12 Villas</p>
+                        <p>07 Offices</p>
+                        <p>10 Apartments</p>
+                    </div>
+                </div>
+            </div>
+            <div class="img-details">
+                <img src="./Real/Real/location/city-2.png" alt="">
+                <div class="img-name">
+                    <h3>Jerrsy, United State</h3>
+                    <div class="paragrap">
+                        <p>12 Villas</p>
+                        <p>07 Offices</p>
+                        <p>05 Apartments</p>
+                    </div>
+                </div>
+            </div>
+            <div class="img-details">
+                <img src="./Real/Real/location/city-3.png" alt="">
+                <div class="img-name">
+                    <h3>Liverpool, London</h3>
+                    <div class="paragrap">
+                        <p>10 Villas</p>
+                        <p>17 Offices</p>
+                        <p>12 Apartments</p>
+                    </div>
+                </div>
+            </div>
+            <div class="img-details">
+                <img src="./Real/Real/location/city-4.png" alt="">
+                <div class="img-name">
+                    <h3>NewYork, United States</h3>
+                    <div class="paragrap">
+                        <p>22 Villas</p>
+                        <p>06 Offices</p>
+                        <p>14 Apartments</p>
+                    </div>
+                </div>
+            </div>
+            <div class="img-details">
+                <img src="./Real/Real/location/city-5.png" alt="">
+                <div class="img-name">
+                    <h3>Montreal, Canada</h3>
+                    <div class="paragrap">
+                        <p>06 Villas</p>
+                        <p>17 Offices</p>
+                        <p>11 Apartments</p>
+                    </div>
+                </div>
+            </div>
+            <div class="img-details">
+                <img src="./Real/Real/location/city-6.png" alt="">
+                <div class="img-name">
+                    <h3>California,USA</h3>
+                    <div class="paragrap">
+                        <p>09 Villas</p>
+                        <p>17 Offices</p>
+                        <p>08 Apartments</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Our Featured Agents-->
+    <section class="our-agent">
+        <div class="agent-heading">
+            <h1>Our Featured Agents</h1>
+            <p>Let see our agent and Contact him/her</p>
+        </div>
+        <div class="agent-box">
+            <div class="agent-details">
+                <div class="rating">
+                    <h4>68 listings
+                    </h4>
+                </div>
+                <div class="img-section">
+                    <img src="./Real/Real/customer/team-1.jpg" alt="">
+                    <i class="fa-solid fa-check" id="check"></i>
+                    <div class="agent-name">
+                        <h6><i class="fa-solid fa-location-dot"></i> <span class="agent-location">Liverpool,
+                                Canadaa</span>
+                        </h6>
+                        <h3>Sargam S. Singh</h3>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="agent-contact">
+                    <h4><i class="fa-solid fa-envelope"></i><span class="massage">Message</span></h4>
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+            </div>
+            <div class="agent-details">
+                <div class="rating">
+                    <h4>58 listings
+                    </h4>
+                </div>
+                <div class="img-section">
+                    <img src="./Real/Real/customer/team-2.jpg" alt="">
+                    <i class="fa-solid fa-check" id="check"></i>
+                    <div class="agent-name">
+                        <h6><i class="fa-solid fa-location-dot"></i> <span class="agent-location">Montreal,
+                                Canada</span>
+                        </h6>
+                        <h3>Harijeet M. Siller</h3>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="agent-contact">
+                    <h4><i class="fa-solid fa-envelope"></i><span class="massage">Message</span></h4>
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+            </div>
+            <div class="agent-details">
+                <div class="rating">
+                    <h4>65 listings
+                    </h4>
+                </div>
+                <div class="img-section">
+                    <img src="./Real/Real/customer/team-3.jpg" alt="">
+                    <i class="fa-solid fa-check" id="check"></i>
+                    <div class="agent-name">
+                        <h6><i class="fa-solid fa-location-dot"></i> <span class="agent-location">Denever, USA</span>
+                        </h6>
+                        <h3>Anna K. Young</h3>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="agent-contact">
+                    <h4><i class="fa-solid fa-envelope"></i><span class="massage">Message</span></h4>
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+            </div>
+            <div class="agent-details">
+                <div class="rating">
+                    <h4>85 listings
+                    </h4>
+                </div>
+                <div class="img-section">
+                    <img src="./Real/Real/customer/team-4.jpg" alt="">
+                    <i class="fa-solid fa-check" id="check"></i>
+                    <div class="agent-name">
+                        <h6><i class="fa-solid fa-location-dot"></i> <span class="agent-location">2272 Briarwood
+                                Drive</span>
+                        </h6>
+                        <h3>Michael P. Grimaldo</h3>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="agent-contact">
+                    <h4><i class="fa-solid fa-envelope"></i><span class="massage">Message</span></h4>
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+            </div>
+            <div class="agent-details">
+                <div class="rating">
+                    <h4>78 listings
+                    </h4>
+                </div>
+                <div class="img-section">
+                    <img src="./Real/Real/customer/team-5.jpg" alt="">
+                    <i class="fa-solid fa-check" id="check"></i>
+                    <div class="agent-name">
+                        <h6><i class="fa-solid fa-location-dot"></i> <span class="agent-location">Montreal, USA</span>
+                        </h6>
+                        <h3>Adam K. Jollio</h3>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="agent-contact">
+                    <h4><i class="fa-solid fa-envelope"></i><span class="massage">Message</span></h4>
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+            </div>
+            <div class="agent-details">
+                <div class="rating">
+                    <h4>99 listings
+                    </h4>
+                </div>
+                <div class="img-section">
+                    <img src="./Real/Real/customer/team-6.jpg" alt="">
+                    <i class="fa-solid fa-check" id="check"></i>
+                    <div class="agent-name">
+                        <h6><i class="fa-solid fa-location-dot"></i> <span class="agent-location">West Bengal,
+                                India</span>
+                        </h6>
+                        <h3>Subrata Pramanik</h3>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="agent-contact">
+                    <h4><i class="fa-solid fa-envelope"></i><span class="message">Message</span></h4>
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Select Your Package-->
+
+    <section class="your-package">
+        <div class="package-text">
+            <h1>Select Your Package</h1>
+            <p>Show the package details and book now</p>
+        </div>
+        <div class="package-details">
+            <div class="package-box">
+                <div class="package-header">
+                    <h4>Basic</h4>
+                    <h6>$ <span class="value">29</span> </h6>
+                    <p>per user, per month</p>
+                </div>
+                <div class="package-proparty">
+                    <h6><i class="fa-solid fa-check"></i><span>99.5% Uptime Guarantee</span></h6>
+                    <h6><i class="fa-solid fa-check"></i><span>120GB CDN Bandwidth</span></h6>
+                    <h6><i class="fa-solid fa-check"></i><span>5GB Cloud Storage</span></h6>
+                    <h6><i class="fa-solid fa-xmark"></i><span>Personal Help Support</span></h6>
+                    <h6><i class="fa-solid fa-xmark"></i><span>Enterprise SLA</span></h6>
+                </div>
+            </div>
+            <div class="package-box">
+                <div class="package-header">
+                    <h4>Standard</h4>
+                    <h6>$ <span class="value">49</span> </h6>
+                    <p>per user, per month</p>
+                </div>
+                <div class="package-proparty">
+                    <h6><i class="fa-solid fa-check"></i><span>99.5% Uptime Guarantee</span></h6>
+                    <h6><i class="fa-solid fa-check"></i><span>150GB CDN Bandwidth</span></h6>
+                    <h6><i class="fa-solid fa-check"></i><span>15GB Cloud Storage</span></h6>
+                    <h6><i class="fa-solid fa-check"></i><span>Personal Help Support</span></h6>
+                    <h6><i class="fa-solid fa-xmark"></i><span>Enterprise SLA</span></h6>
+                </div>
+            </div>
+            <div class="package-box">
+                <div class="package-header">
+                    <h4>Platinum</h4>
+                    <h6>$ <span class="value">80</span> </h6>
+                    <p>2 user, per month</p>
+                </div>
+                <div class="package-proparty">
+                    <h6><i class="fa-solid fa-check"></i><span>100% Uptime Guarantee</span></h6>
+                    <h6><i class="fa-solid fa-check"></i><span>200GB CDN Bandwidth</span></h6>
+                    <h6><i class="fa-solid fa-check"></i><span>25GB Cloud Storage</span></h6>
+                    <h6><i class="fa-solid fa-check"></i><span>Personal Help Support</span></h6>
+                    <h6><i class="fa-solid fa-check"></i><span>Enterprise SLA</span></h6>
+                </div>
+            </div>
+        </div>
+    </section>
+  <!--question section-->
+    <section class="question">
+        <div class="question-text">
+            <h1>Do You Have Questions ?</h1>
+            <p>We'll help you to grow your career and growth.</p>
+        </div>
+        <div class="contact-us-today">
+            <p>Contact Us Today</p>
+        </div>
+    </section>
+    <script src="style.js"></script>
+</body>
+
+</html>
