@@ -151,12 +151,12 @@ nav .nav-img img {
 }
 
 .price h3 {
-    font-size: 0.5rem;
+    font-size: 1rem;
     padding: 10px 20px;
 }
 
 .price span {
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin-left: 2px;
 }
 
@@ -164,7 +164,7 @@ nav .nav-img img {
     font-size: 0.6rem;
 }
 
-.location-type {
+.property-price h4 .location-type {
     font-size: 1rem;
     font-weight: 500;
 }
