@@ -260,7 +260,8 @@ nav .nav-img img {
 
 
 .img-details img {
-    width: 250px;
+    width: 300px;
+    height:auto;
 }
 
 .img-details .img-name {
