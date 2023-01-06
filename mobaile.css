@@ -164,7 +164,7 @@ nav .nav-img img {
     font-size: 0.6rem;
 }
 
-.property-price h4 .location-type {
+.property-price h4.location-type{
     font-size: 1rem;
     font-weight: 500;
 }
@@ -269,7 +269,7 @@ nav .nav-img img {
 }
 
 .img-details .img-name h3 {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .img-details .img-name .paragrap {
